@@ -1,6 +1,6 @@
 <?xml version = "1.0"?>
 <project name = "Welcome" default = "build">
-   <property name = "src.dir" value = "src\com\pk"/>
+   <property name = "src.dir" value = "com\pk"/>
    <property name = "build.dir" value = "D:\ptc\Windchill_10.2\Windchill\codebase"/>
  
    <target name = "build" description = "Compile source tree java files" depends="clean">
